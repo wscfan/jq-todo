@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>jq-todo</title>
+    <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
-<h2>Hello world</h2>
+
+<div class="container">
+    <div class="add-task">
+        <input type="text" title="请输入内容">
+        <button>submit</button>
+    </div>
+    <div class="task-list">
+        <div class="task-item">
+            <span><input type="checkbox" title="请勾选内容"></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+        </div>
+    </div>
+</div>
+
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="js/base.js"></script>
 </body>
