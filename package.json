@@ -1,0 +1,25 @@
+{
+  "name": "jq-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wscfan/jq-todo.git"
+  },
+  "author": "wangsong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wscfan/jq-todo/issues"
+  },
+  "homepage": "https://github.com/wscfan/jq-todo#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
